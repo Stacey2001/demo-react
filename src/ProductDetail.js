@@ -20,7 +20,7 @@ export default function ProductDetail() {
             })
             setproductDetail(productInfo)
         })
-    },[])//第二個參數是Dependency Array
+    },[params.id])//第二個參數是Dependency Array
 
     return (
         <div>
