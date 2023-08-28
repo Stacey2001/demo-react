@@ -15,11 +15,11 @@ export default function ProductDetail() {
         //3.第二個參數(Dependency Array)有變數時:第一次網頁render時 + 指定的變數改變時會觸發
         let data=[
           {"id" : 1,"name" : "ORIN氣質粗跟鞋", "price" : 299, "image" : "1.jpg","description":"最受歡迎的奶茶灰!搭配簡單又優雅的蝴蝶結裝飾，增添唯美氣質，材質為舒適好穿的皮革材質，不只好看還可以久站!"},
-          {"id" : 2,"name" : "高跟鞋", "price" : 3, "image" : "3.jpg","description":"新鮮橙50克，又甜又好吃"},
-          {"id" : 3,"name" : "芒果", "price" : 4, "image" : "5.jpg","description":"新鮮芒500克，宜做甜品"},
-          {"id" : 4,"name" : "西瓜", "price" : 20,"image" : "4.jpg","description":"新鮮西瓜2公斤，夏季必備"},
-          {"id" : 5,"name" : "藍梅", "price" : 10,"image" : "2.jpg","description":"新鮮藍梅50克，補眼之寶"},
-          {"id" : 6,"name" : "白蘿蔔", "price" : 5,"image" : "6.jpg","description":"新鮮白蘿蔔1公斤，宜煲湯"}
+          {"id" : 2,"name" : "A.S.O黑色粗跟鞋", "price" : 3, "image" : "3.jpg","description":"顏色是高冷氣質黑，材質為舒適好穿的皮革材質，不只好看還可以久站!"},
+          {"id" : 3,"name" : "effie白色平底鞋", "price" : 4, "image" : "5.jpg","description":"最舒適好穿的平底鞋，小花裝飾超可愛!出遊上班都可搭配~~"},
+          {"id" : 4,"name" : "粉色長袖帽踢", "price" : 20,"image" : "4.jpg","description":"冬天必備!裡面為絨毛材質，讓你不只好看又保暖，出遊玩也不怕冷!"},
+          {"id" : 5,"name" : "韓系針織上衣", "price" : 10,"image" : "2.jpg","description":"韓系氣質小姐姐風，編織材質簡約又不失特色，一秒變身氣質小姐姐!"},
+          {"id" : 6,"name" : "可愛小束口包", "price" : 5,"image" : "6.jpg","description":"超可愛的束口包，輕巧好攜帶出遊玩最方便!一般常用到的小物都可以放得下!"}
         ]
         let productInfo=data.find((element)=>{
             return element.id===parseInt(params.id)
