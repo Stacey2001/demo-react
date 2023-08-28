@@ -1,6 +1,0 @@
-[
-        {"id" : 1,"name" : "蘋果", "price" : 5, "image" : "casual_shoes.jpg","description":"新鮮蘋果50克，一日一蘋果，醫生遠離我"},
-        {"id" : 2,"name" : "橙", "price" : 3, "image" : "heels.jpg","description":"新鮮橙50克，又甜又好吃"},
-        {"id" : 3,"name" : "芒果", "price" : 4, "image" : "hoodie.jpg","description":"新鮮芒500克，宜做甜品"},
-        {"id" : 4,"name" : "西瓜", "price" : 20,"image" : "knitting.jpg","description":"新鮮西瓜2公斤，夏季必備"},
-]
